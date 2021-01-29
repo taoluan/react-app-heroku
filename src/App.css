@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.welcome-row{
+  background-color: #e0e4ec;
+}
+.mt-4{
+  margin-top: 40px!important;
+}
+.mb-4{
+  margin-bottom: 40px!important;
+}
+.text-font{
+  font-family: Georgia, serif;
+}
+.App-header {
+  background-color: #93a2c0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.ant-typography code{
+  background:#ffe58f !important;
+}
+.incoming_msg_img {
+  display: inline-block;
+  width: 5%;
+}
+.received_msg {
+  display: inline-block;
+  padding: 0 0 0 10px;
+  vertical-align: top;
+  width: 90%;
+  margin-top: 10px;
+ }
+ .time_date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+ .received_withd_msg p {
+  background: white none repeat scroll 0 0;
+  border-radius: 40px;
+  color: black;
+  font-size: 15px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  box-shadow: 0 2px 4px 0 rgba(98, 97, 97, 0.2), 0 4px 10px 0 rgba(134, 130, 130, 0.19);
+}
+.sent_msg p {
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 40px;
+  font-size: 15px;
+  margin: 0; color:#fff;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+  box-shadow: 0 4px 8px 0 rgba(98, 97, 97, 0.2), 0 6px 20px 0 rgba(134, 130, 130, 0.19);
+  word-wrap: break-word;
+}
+.outgoing_msg{ overflow:hidden; margin:16px 0 10px;}
+.incoming_msg{ overflow:hidden; margin:16px 0 10px;}
+.sent_msg {
+  float: right;
+  width: 10%;
+  margin-right: 5px;
+}
+.received_withd_msg { width: 10%;}
+.container{
+  background-color: #93a2c0;
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.ct{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+.logo{
+  margin-bottom: 5px;
+}
+.ant-layout-sider{
+  width: 500px!important;
+}
+.App-link {
+  color: #61dafb;
+}
+.logo p{
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.list-user span{
+  font-size: 14px;
+}
+.diemso{
+  margin-top: 0px;
+  font-size: 14px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#components-layout-demo-custom-trigger .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 16px;
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
